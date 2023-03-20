@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+  </head>
+  <body>
+    <h1>get response from the server</h1>
+    <button type="submit" id="submit">send message</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- <script
+      src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+      integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+      crossorigin="anonymous"
+    ></script> -->
+    <script>
+      const socket = io();
+
+      socket.on("connect", () => {
+        console.log(socket.id);
+      });
+      let submit = document.getElementById("submit");
+      submit.addEventListener("click", () => {
+        socket.emit("message", "hey from the client");
+      });
+    </script>
+  </body>
+</html>

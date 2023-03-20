@@ -1,0 +1,134 @@
+:root{
+    --gradient-bg: linear-gradient(
+        
+		 #020B1A,#3E5879, grey,#DCB697,#FC7001,#DD723C,#AD4A28, #040308
+	);
+	--clr-sun:#d19302;
+
+}
+body{
+    background:var(--gradient-bg);
+	overflow: hidden;
+}
+.sky {
+	height: 25vh;
+	width: 100%;
+	padding-top: 5px;
+}
+.moon{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(82, 82, 82) inset;
+	transform: translate(490%, -26%);
+}
+.star-big{
+	width: 3px;
+	height: 3px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(224, 219, 219) inset;
+	transform: translate(490%, -1900%);
+}
+.star-small{
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(224, 219, 219) inset;
+	transform: translate(16940%, -2300%);
+}
+.star-big-2{
+	width: 3px;
+	height: 3px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(224, 219, 219) inset;
+	transform: translate(38940%, -9300%);
+}
+.star-small-2{
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(224, 219, 219) inset;
+	transform: translate(3540%, -5300%);
+}
+.star-big-3{
+	width: 3px;
+	height: 3px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(224, 219, 219) inset;
+	transform: translate(11640%, -10300%);
+}
+.star-small-3{
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	margin: 50px ;
+	top:40;
+	right:20;
+	bottom: 10;
+	left:60;
+	position:relative;
+	border-radius: 50%;
+	box-shadow:10px 20px 75px 20px white,50px 50px 50px rgb(224, 219, 219) inset;
+	transform: translate(13940%, -5300%);
+}
+.sun {
+	height: 25vmin;
+	aspect-ratio: 1;
+	position: absolute;
+	top: 0;
+	bottom: 40;
+	margin: 290px;
+	background-color: var(--clr-sun);
+	border-radius: 50%;
+	transform: translate(120%, 110%);
+	box-shadow: 0 0 0 2.5vmin rgba(246, 243, 198, 0.1),
+		0 0 0 5vmin rgba(246, 243, 198, 0.1);
+		z-index: -1;
+	}
+	.header svg{
+		margin:-10px;
+		padding-top: 181px;
+
+}

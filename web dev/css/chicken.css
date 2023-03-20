@@ -1,0 +1,31 @@
+/*******************************tag selectors***************************/
+h1{
+    color: #ff0000;
+    font-size: 50px;
+}
+ img:hover{
+    background-color: gold ;
+} 
+
+/********************************class selectors*************************/
+.chicken {
+    background-color: green;
+}
+.sheep {
+    background-color: red;
+}
+.circular{
+    border-radius: 100%;
+}
+
+/******************************* id selectors*****************************/
+ #heading {
+     color: violet;
+ }  
+
+ #para {
+ color: #ff0000;
+     font-style: italic;
+
+ }
+

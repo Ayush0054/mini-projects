@@ -1,0 +1,101 @@
+body{
+    background-color: darkseagreen ;
+    text-align: center;
+}
+.header{
+text-align: center;
+padding: 70px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 100px;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+    box-sizing: border-box;
+  }
+  .column1 {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: aqua;
+    transform: rotate(50deg);
+    border: 3px solid #73AD21;
+  }
+  .column2 {
+    float: right;
+    width: 15%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform: rotate(-50deg);
+    border: 3px solid blue;
+  }
+  .column3 {
+    float: right;
+    width: 15%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform: rotate(50deg);
+    border: 3px solid #73AD21;
+  }
+  .column4 {
+    float:left;
+    width: 34.3%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform: rotate(19deg);
+    border: 3px solid blue;
+  }
+  .column5 {
+    float:left;
+    width: 34.3%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform: rotate(-19deg);
+    border: 3px solid blue;
+  }
+  .column6 {
+    float:left;
+    width: 15%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform: rotate(-50deg);
+    border: 3px solid blue;
+  }
+  .column7 {
+    float:right;
+    width: 34.3%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform: rotate(19deg);
+    border: 3px solid blue;
+  }
+  .column8{
+    float:right;
+    width:34.3%;
+    padding: 10px ;
+    height: 100px; /* Should be removed. Only for demonstration */
+    background: green;
+    transform:  rotate(-19deg);
+    border: 3px solid blue;
+  }
+  
+  /* Clear floats after the columns */
+  /* @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    }} */

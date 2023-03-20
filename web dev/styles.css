@@ -1,0 +1,22 @@
+body {
+    background-color:#e9e8e0 ;
+     font-family: serif ;
+}
+h1{
+    color: green;
+}
+h3{
+    color: green;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: grey;
+    border-width:10px;
+    width: 5%;
+}
+img{
+    height: 120px;
+    width: 120px;
+}
+
